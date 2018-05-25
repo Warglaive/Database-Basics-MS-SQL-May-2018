@@ -1,0 +1,8 @@
+USE Minions
+CREATE TABLE People(
+Id INT IDENTITY,
+[Name] NVARCHAR(50) NOT NULL,
+Picture IMAGE,
+Height DECIMAL(15, 2),
+Gender
+)
