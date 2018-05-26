@@ -1,6 +1,6 @@
 USE Minions
 CREATE TABLE People(
-Id INT IDENTITY,
+Id INT IDENTITY UNIQUE,
 [Name] NVARCHAR(50) NOT NULL,
 Picture VARBINARY(MAX),
 Height DECIMAL(15, 2),
@@ -8,8 +8,8 @@ Gender CHAR(1),
 Birthday DATETIME NOT NULL,
 Biography NVARCHAR(MAX)
 )
-ALTER TABLE People
- ADD PRIMARY KEY(Id)
+--ALTER TABLE People
+-- ADD PRIMARY KEY(Id)
 
 INSERT INTO People([Name], Picture , Height, Gender, Birthday, Biography)
 VALUES
