@@ -14,3 +14,6 @@ VALUES
 ('asenxc', 'weed', NULL, CONVERT(datetime, '11-09-2000', 103), 0),
 ('sasdasdxc', 'x', NULL, CONVERT(datetime, '10-03-2005', 103), 0),
 ('beweqwexc', 'asd', NULL, CONVERT(datetime,'09-08-1999', 103), 0)
+
+ALTER TABLE Users
+ ADD CONSTRAINT CHK_ProfilePicture CHECK(DATALENGTH(ProfilePicture)<=900*1024)
