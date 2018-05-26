@@ -37,6 +37,30 @@
           <AssociatedConnUserName />
           <FullPath>04.InsertRecordsinBothTables.sql</FullPath>
         </FileNode>
+        <FileNode Name="05.TruncateTableMinions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05.TruncateTableMinions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06.DropAllTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06.DropAllTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07.CreateTablePeople.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07.CreateTablePeople.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
