@@ -1,0 +1,2 @@
+--USE HOTEL
+TRUNCATE TABLE Occupancies

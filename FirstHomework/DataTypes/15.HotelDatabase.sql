@@ -19,7 +19,7 @@ Notes NVARCHAR(MAX)
 )
 --
 CREATE TABLE RoomStatus(
-RoomStatus BIT PRIMARY KEY NOT NULL,
+RoomStatus VARCHAR(20) PRIMARY KEY NOT NULL,
 Notes NVARCHAR(MAX)
 )
 --
@@ -38,7 +38,7 @@ RoomNumber INT PRIMARY KEY NOT NULL,
 RoomType VARCHAR(20) NOT NULL,
 BedType VARCHAR(20) NOT NULL,
 Rate DECIMAL(15, 2),
-RoomStatus BIT,
+RoomStatus VARCHAR(20),
 Notes NVARCHAR(MAX)
 )
 --
