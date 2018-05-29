@@ -1,2 +1,2 @@
-SELECT * FROM Employees
-WHERE FirstName + '.' + LastName +'@softuni.bg'
+SELECT FirstName + '.' + LastName + '@softuni.bg' FROM Employees
+
