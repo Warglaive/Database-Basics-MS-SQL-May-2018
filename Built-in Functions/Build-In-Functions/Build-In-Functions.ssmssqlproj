@@ -85,6 +85,36 @@
           <AssociatedConnUserName />
           <FullPath>11. Mix of Peak and River Names.sql</FullPath>
         </FileNode>
+        <FileNode Name="12. Games From 2011 and 2012 Year.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12. Games From 2011 and 2012 Year.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13. User Email Providers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13. User Email Providers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14. Get Users with IPAddress Like Pattern.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14. Get Users with IPAddress Like Pattern.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15. Show All Games with Duration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15. Show All Games with Duration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16. Orders Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16. Orders Table.sql</FullPath>
+        </FileNode>
         <FileNode Name="DemoDB Create.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
