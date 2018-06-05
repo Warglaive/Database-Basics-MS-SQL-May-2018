@@ -1,9 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DATA AGGREGATION">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="WARGLAIVE\SQLEXPRESS:WARGLAIVE\Warglaive">
+          <Created>2018-06-05T17:52:41.0172324+03:00</Created>
+          <Type>SQL</Type>
+          <Server>WARGLAIVE\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01. Records’ Count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01. Records’ Count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02. Longest Magic Wand.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02. Longest Magic Wand.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03. Longest Magic Wand per Deposit Groups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03. Longest Magic Wand per Deposit Groups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04. Smallest Deposit Group per Magic Wand Size.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04. Smallest Deposit Group per Magic Wand Size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05. Deposits Sum.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05. Deposits Sum.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06. Deposits Sum for Ollivander Family.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06. Deposits Sum for Ollivander Family.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07. Deposits Filter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07. Deposits Filter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13. Departments Total Salaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13. Departments Total Salaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE Gringotts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE Gringotts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE IncomesDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE IncomesDB.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

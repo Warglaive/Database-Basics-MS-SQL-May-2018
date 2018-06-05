@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 14.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DATA AGGREGATION", "DATA AGGREGATION\DATA AGGREGATION.ssmssqlproj", "{8D71F1FD-9A2D-47FC-8D78-6ECEA7096945}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D71F1FD-9A2D-47FC-8D78-6ECEA7096945}.Default|Default.ActiveCfg = Default
+		{D9AEC82F-AA9C-4D7A-9978-C94B959A9513}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
