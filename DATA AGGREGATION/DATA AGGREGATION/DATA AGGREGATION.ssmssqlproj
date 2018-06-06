@@ -85,6 +85,12 @@
           <AssociatedConnUserName />
           <FullPath>11. Average Interest.sql</FullPath>
         </FileNode>
+        <FileNode Name="12. Rich Wizard, Poor Wizard.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12. Rich Wizard, Poor Wizard.sql</FullPath>
+        </FileNode>
         <FileNode Name="13. Departments Total Salaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
