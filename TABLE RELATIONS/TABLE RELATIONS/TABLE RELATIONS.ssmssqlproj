@@ -55,6 +55,12 @@
           <AssociatedConnUserName />
           <FullPath>06. University Database.sql</FullPath>
         </FileNode>
+        <FileNode Name="09.Peaks in Rila.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09.Peaks in Rila.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
