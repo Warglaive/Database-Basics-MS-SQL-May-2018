@@ -1,19 +1,23 @@
 --USE SoftUni
-CREATE OR ALTER FUNCTION udf_ProjectWeeks(@StartDate DATETIME, @EndDate DATETIME)
-RETURNS INT
+CREATE OR ALTER FUNCTION ufn_GetSalaryLevel(@salary DECIMAL(18,4))
+RETURNS VARCHAR(10)
 AS
-BEGIN
-	DECLARE @ProjectWeeks INT;
-	IF(@EndDate IS NULL)
-	BEGIN
-		SET @EndDate = GETDATE();
-	END
-	SET @ProjectWeeks = DATEDIFF(WEEK, @StartDate, @EndDate)
-	RETURN @ProjectWeeks
+BEGIN	
+	DECLARE @result VARCHAR(10);
+	IF(@salary < 30000)
+		BEGIN
+			SET	@result = 'Low';
+		END
+	ELSE IF(@salary >= 30000 AND @salary <= 50000)
+		BEGIN
+			SET @result = 'Average'
+		END
+	ELSE
+		BEGIN
+			SET @result = 'High'
+		END
+ 	RETURN @result;
 END
-GO
-SELECT ProjectID, 
-	StartDate, 
-	EndDate, 
-	dbo.udf_ProjectWeeks(StartDate, EndDate) AS [Project Weeks]
-	FROM Projects
+--GO
+ 
+--SELECT Salary, dbo.ufn_GetSalaryLevel(Salary) AS [Salary Level] FROM Employees
