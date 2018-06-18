@@ -1,4 +1,3 @@
---USE SoftUni
 CREATE FUNCTION ufn_GetSalaryLevel(@salary DECIMAL(18,4))
 RETURNS VARCHAR(10)
 AS
@@ -18,6 +17,3 @@ BEGIN
 		END
  	RETURN @result;
 END
---GO
- 
---SELECT Salary, dbo.ufn_GetSalaryLevel(Salary) AS [Salary Level] FROM Employees
