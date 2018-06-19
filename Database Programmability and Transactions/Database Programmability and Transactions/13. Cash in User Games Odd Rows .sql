@@ -1,0 +1,4 @@
+--USE Diablo
+CREATE FUNCTION ufn_CashInUsersGames(@gameName NVARCHAR(MAX))
+RETURNS TABLE
+AS
