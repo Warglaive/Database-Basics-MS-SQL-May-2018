@@ -103,6 +103,60 @@
           <AssociatedConnUserName />
           <FullPath>13. Cash in User Games Odd Rows .sql</FullPath>
         </FileNode>
+        <FileNode Name="14. Create Table Logs .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14. Create Table Logs .sql</FullPath>
+        </FileNode>
+        <FileNode Name="15. Create Table Emails .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15. Create Table Emails .sql</FullPath>
+        </FileNode>
+        <FileNode Name="16. Deposit Money .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16. Deposit Money .sql</FullPath>
+        </FileNode>
+        <FileNode Name="17. Withdraw Money Procedure .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17. Withdraw Money Procedure .sql</FullPath>
+        </FileNode>
+        <FileNode Name="18. Money Transfer .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18. Money Transfer .sql</FullPath>
+        </FileNode>
+        <FileNode Name="19. Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19. Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20. Massive Shopping .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20. Massive Shopping .sql</FullPath>
+        </FileNode>
+        <FileNode Name="21. Employees with Three Projects .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21. Employees with Three Projects .sql</FullPath>
+        </FileNode>
+        <FileNode Name="22. Delete Employees .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WARGLAIVE\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WARGLAIVE\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22. Delete Employees .sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
