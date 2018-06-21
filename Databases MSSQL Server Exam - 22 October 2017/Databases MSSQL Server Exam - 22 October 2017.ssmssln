@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 14.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Databases MSSQL Server Exam - 22 October 2017", "Databases MSSQL Server Exam - 22 October 2017\Databases MSSQL Server Exam - 22 October 2017.ssmssqlproj", "{0E0DA34A-AE30-4A2C-A24A-795809CDE884}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E0DA34A-AE30-4A2C-A24A-795809CDE884}.Default|Default.ActiveCfg = Default
+		{DE9CE97C-A8F2-49E8-B8C2-3C149965D48B}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
